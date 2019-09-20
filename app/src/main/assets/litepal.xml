@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    ·<!--添加信息后需要去manifest配置文件中配置，配置完才能正常使用,数据库和表在首次执行任意数据库操作的时候自动创建-->
+··<!--dbname用于指定数据库名字-->
+    <dbname value="cool_weather" />
+    <!--用于指定数据库版本号-->
+    <version value="1" />
+    <!--用于指定所有的映射模型-->
+    <list>
+        <mapping class="com.android.wcfcoolweather.db.Province" />
+        <mapping class="com.android.wcfcoolweather.db.City" />
+        <mapping class="com.android.wcfcoolweather.db.County" />
+    </list>
+
+</litepal>
